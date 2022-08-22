@@ -1,11 +1,11 @@
-// console.log("hello world") 
-// console.log(process.argv)
+console.log("hello world") 
+console.log(process.argv)
 
-// if (process.argv[2] === 'Alex') {
-//     console.log("Its Alex")
-// } else {
-//     console.log("Not Alex")
-// } 
+if (process.argv[2] === 'Alex') {
+    console.log("Its Alex")
+} else {
+    console.log("Not Alex")
+} 
 
 const app = (names) => {
     switch(names[2]) {
